@@ -1,5 +1,4 @@
 import "./Kad.css";
-import image from "./blogDiagram.drawio.png";
 function Punkts5(){
     return (
         <>
