@@ -23,6 +23,11 @@
     border:2px white;
     box-shadow: rgba(162, 162, 162, 0.25) 0px 54px 55px, rgba(213, 213, 213, 0.12) 0px -12px 30px, rgba(224, 221, 221, 0.12) 0px 4px 6px, rgba(225, 225, 225, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+.textKad{
+    width:100%;
+    height:85%;
+
 .titleKadi{
     width:50%;
     text-align:center;
@@ -31,6 +36,35 @@
     color:white;
     align-items:center;
     justify-content:center;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.image{
+    margin: 10px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.boxKad{
     margin-top:25px;
     border-radius:8px;
     border:2px white;

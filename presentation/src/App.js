@@ -1,3 +1,4 @@
+
 import KadIzmanto from "./components/KadIzmanto";
 import KadiElementi from "./components/KadiElementi";
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <div className="App">
       <KadiElementi />
     </div>
+
   );
 }
 
