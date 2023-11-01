@@ -3,6 +3,7 @@ import KadiElementi from "./components/KadiElementi";
 function App() {
   return (
     <div className="App">
+        <KadIzmanto />
       <KadiElementi />
     </div>
   );
