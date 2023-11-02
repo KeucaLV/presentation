@@ -4,7 +4,7 @@ import './mainStyles.css';
 
 function MainPage(){
     return(
-        <>
+        <div className="mainCont">
 
             <div class="container">
                 <div class="temaHeading">USE CASE DIAGRAM</div>
@@ -41,7 +41,7 @@ function MainPage(){
                 </div>
 
             </div>
-        </>
+        </div>
     );
 }
 
