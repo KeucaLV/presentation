@@ -1,5 +1,4 @@
 import "./KadIzmanto.css";
-import image from "./blogDiagram.drawio.png";
 function Punkts5(){
     return (
         <>
@@ -14,7 +13,7 @@ function Punkts5(){
                                 Blog lapu tad tā varētu izskatīties šādi</h1>
                         </div>
                     </div>
-                    <img alt="diagramaa" className="image" src={image}></img>
+                    <img alt="diagramaa" className="image" src="https://ibb.co/XFv93rf"></img>
                 </div>
             </div>
         </>
