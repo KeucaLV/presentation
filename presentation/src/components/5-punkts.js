@@ -13,7 +13,7 @@ function Punkts5(){
                                 Blog lapu tad tā varētu izskatīties šādi</h1>
                         </div>
                     </div>
-                    <img alt="diagramaa" className="image" src="https://ibb.co/XFv93rf"></img>
+                    <img alt="diagramaa" src="https://ibb.co/XFv93rf"></img>
                 </div>
             </div>
         </>
