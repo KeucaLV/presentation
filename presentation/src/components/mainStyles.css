@@ -11,13 +11,18 @@
     background-color: #222222;
     width: 100vw;
     height: 100vh;
-
-
 }
-.container{
+.Container{
     display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 }
 .temaHeading{
+    height:30%;
+    width:80%;
     border: 4px solid white;
     margin-top: 100px;
     font-family: 'Archivo Black', sans-serif;
@@ -26,7 +31,6 @@
     text-align: center;
     box-shadow: 8px 7px 13px -3px #565656;
     border-radius: 10px;
-    line-height: 200px;
 }
 .grupaHeading{
     width: 80%;
@@ -46,13 +50,14 @@
     margin-top: -30px;
     display: flex;
     flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
 
 }
 
 .poga{
     width: 150px;
     height: 75px;
-    color: white;
     background-color: rgb(6, 6, 6);
     border: 3px solid white;
     box-shadow: 8px 7px 13px -3px #565656;
@@ -64,28 +69,33 @@
     line-height: 65px;
     cursor: pointer;
 }
-
-
-
-
-
 .mainKad{
     height:100vh;
     width:100vw;
     background-color: #222222;
     display:flex;
-    flex-wrap: wrap;
-
+    flex-direction: column;
 }
 .titleMainBox{
     width: 100%;
-    height: 20%;
-    overflow: hidden;
     color: white;
     font-size: 30px;
     font-weight: bold;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    text-align: center;
+}
+.satur{
+    display:flex;
+    width:100%;
+    height:75%;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction:row;
 }
 .titleKad{
+    padding:20px;
     display:flex;
     color:white;
     align-items:center;
@@ -110,10 +120,8 @@
     color:white;
     align-items:center;
     justify-content:center;
-    background-color: #202020;
     font-size: 26px;
     line-height: 40px;
-    border: 5px solid white;
     margin-left: 20px;
     text-align: center;
     font-weight: bold;
@@ -126,14 +134,10 @@
     color:white;
     align-items:center;
     justify-content:center;
-    background-color: #202020;
     font-size: 25px;
     line-height: 40px;
-    border: 5px solid white;
-    margin-left: 20px;
     text-align: center;
     font-weight: bold;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -152,10 +156,8 @@
     margin-bottom: 10px;
     color: white;
     font-size: 20px;
-    box-shadow: 8px 7px 13px -3px #565656;
     text-align: left;
     padding: 2px;
-    border-bottom: solid white 3px;
 
 }
 span{

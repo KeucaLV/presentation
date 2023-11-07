@@ -3,7 +3,7 @@ import "./KadIzmanto.css";
 function KadiElementi(){
     return (
         <div className="mainKad">
-            <div className="titleKadi">
+            <div className="titleKad">
                 <h1>kādi UML elementi ir šajā diagrammā?</h1>
             </div>
             <div className="boxKadi">

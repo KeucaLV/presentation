@@ -1,4 +1,5 @@
 import "./KadIzmanto.css";
+import img from "./blogDiagram.drawio.png";
 function Punkts5(){
     return (
         <>
@@ -8,12 +9,12 @@ function Punkts5(){
                 </div>
                 <div className="flex-row">
                     <div className="boxKad">
-                        <div className="textKad">
+                        <div className="textKad123">
                             <h1>Ja jāizveido Use State diagramma saistībā ar mūsu veidoto
                                 Blog lapu tad tā varētu izskatīties šādi</h1>
                         </div>
                     </div>
-                    <img alt="diagramaa" src="https://ibb.co/XFv93rf"></img>
+                    <img alt="diagramaa" src={img}></img>
                 </div>
             </div>
         </>

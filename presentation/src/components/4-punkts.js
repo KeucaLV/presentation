@@ -2,7 +2,6 @@ import "./KadIzmanto.css";
 
 function Punkts4(){
     return (
-        <>
         <div className="mainKad">
             <div className="titleKad">
                 <h1>kāds ir piemērs ar skaidrojumu?</h1>
@@ -50,20 +49,15 @@ function Punkts4(){
                                         <p>Produktu Menedžēšanu</p>
                                     </div>
                             </div>
-                            <h1>Šī diagramma sniedz augsta līmeņa priekšstatu par sistēmas funkcionalitāti un to, kā ārējie dalībnieki ar to mijiedarbojas. Tas palīdz ieinteresētajām personām izprast sistēmas darbību, neiedziļinoties tehniskajās detaļās.</h1>
-                        </article>
+                             </article>
                     </div>
-                </div>
-                    <div className="boxKad">
-                        <div className="textKad">
-                            <img alt="diagrama" src="https://www.uml-diagrams.org/examples/use-case-example-online-shopping.png"></img>
-                        </div>
-                        <div>
+                    <div className="textKad12">
+                        <img alt="diagrama" src="https://www.uml-diagrams.org/examples/use-case-example-online-shopping.png"></img>
+                        <h3 className="mazaks">Šī diagramma sniedz augsta līmeņa priekšstatu par sistēmas funkcionalitāti un to, kā ārējie dalībnieki ar to mijiedarbojas. Tas palīdz ieinteresētajām personām izprast sistēmas darbību, neiedziļinoties tehniskajās detaļās.</h3>
                     </div>
                 </div>
             </div>
         </div>
-        </>
     );
 }
 
